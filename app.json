@@ -1,0 +1,15 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/detail/detail"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "抖音",
+    "navigationBarTextStyle":"black",
+    "enablePullDownRefresh": false,
+    "backgroundColor": "white",
+    "navigationStyle": "custom"
+  }
+}

@@ -1,0 +1,30 @@
+.next{
+  width: 250rpx;
+  height: 80rpx;
+  background-color: white;
+  position: absolute;
+  left: 50%;
+  bottom:100rpx;
+  transform: translateX(-50%);
+  text-align: center;
+  line-height: 80rpx;
+  border-radius: 60rpx;
+  font-size: 30rpx;
+}
+
+page,video,.container,.content,.video-box{
+   height: 100%;
+   width: 100%;
+}
+.video-box{
+  position: relative;
+}
+video{
+  position: absolute;
+  top:0;
+  left: 0;
+}
+.img{
+  height: 100%;
+  width: 100%;
+}

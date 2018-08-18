@@ -1,0 +1,52 @@
+.box {
+height: 340rpx;
+z-index: 0;
+margin: 50rpx 0;
+}
+.box .club {
+height: 140rpx;
+width: 140rpx;
+position: relative;
+display: inline-block;
+}
+.club image {
+height: 140rpx;
+width: 140rpx;
+}
+.club text {
+display: block;
+width: 100%;
+font-size: 24rpx;
+line-height: 40rpx;
+text-align: center;
+}
+.box .club:nth-child(1) {
+transform: scale(0.8, 0.8) translateX(-120rpx);
+opacity: 0.2;
+z-index: 10;
+}
+.box .club:nth-child(2) {
+transform: scale(1,1) translateX(-80rpx);
+opacity: 0.5;
+z-index: 100;
+}
+.box .club:nth-child(3) {
+transform: scale(1.4,1.4);
+z-index: 1000;
+}
+.box .club:nth-child(4) {
+transform: scale(1,1) translateX(80rpx);
+opacity: 0.5;
+z-index: 100;
+}
+.box .club:nth-child(5) {
+transform: scale(0.8, 0.8) translateX(120rpx);
+opacity: 0.2;
+z-index: 10;
+}
+.box .club:nth-child(1) text,
+.box .club:nth-child(2) text,
+.box .club:nth-child(4) text,
+.box .club:nth-child(5) text{
+visibility: hidden;
+}

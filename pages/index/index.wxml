@@ -1,0 +1,11 @@
+<view class = 'container'>
+    <view class='content' >
+      <view class='video-box' bindtouchstart="touchstart" bindtouchmove="touchmove" bindtouchend="touchend" animation="{{animationData}}"  wx:key='index' wx:for="{{list}}">
+         <image src='http://paly17y6j.bkt.clouddn.com/demo.jpg' class='img'></image>
+         <!-- <view data-index='{{index}}' catchtap='next' data-id='{{index+1}}' id="video{{index+2}}" class="next">下一个{{index}}</view> -->
+         <video style="height:{{height}}px" objectFit='fill' wx:if="{{idx == index+1}}" autoplay='{{true}}' src="{{item}}" custom-cache="{{false}}"   data-id='{{index+1}}' id="video{{index+1}}" page-gesture="{{false}}" controls='{{false}}' >
+          <cover-view data-index='{{index}}' catchtap='next' data-id='{{index+1}}' id="video{{index+2}}" class="next">下一个</cover-view>
+         </video>
+      </view>
+    </view>
+</view>

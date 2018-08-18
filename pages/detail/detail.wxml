@@ -1,0 +1,22 @@
+<view style="white-space: nowrap;" class="box" bindtouchstart="touchstart" bindtouchmove="touchmove" bindtouchend="touchend">
+  <view class="club" animation="{{animation1}}" bindtap="scrollLeft">
+    <image src="http://img02.tooopen.com/images/20150928/tooopen_sy_143912755726.jpg" />
+    <text>{{clubs[0].name}}</text>
+  </view>
+  <view class="club" animation="{{animation2}}" bindtap="scrollLeft">
+    <image src="http://img02.tooopen.com/images/20150928/tooopen_sy_143912755726.jpg" />
+    <text>{{clubs[1].name}}</text>
+  </view>
+  <view class="club" animation="{{animation3}}">
+    <image src="http://img02.tooopen.com/images/20150928/tooopen_sy_143912755726.jpg" />
+    <text>{{clubs[2].name}}</text>
+  </view>
+  <view class="club" animation="{{animation4}}" bindtap="scrollRight">
+    <image src="http://img02.tooopen.com/images/20150928/tooopen_sy_143912755726.jpg" />
+    <text>{{clubs[3].name}}</text>
+  </view>
+  <view class="club" animation="{{animation5}}" bindtap="scrollRight">
+    <image src="http://img02.tooopen.com/images/20150928/tooopen_sy_143912755726.jpg" />
+    <text>{{clubs[4].name}}</text>
+  </view>
+</view>
